@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{36D9415F-EBE5-40C5-902C-8C80F078A0C1}</ProjectGuid>
+    <ProjectGuid>{F2450EEF-1FBD-4E21-A938-F986889E38C6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Srp</RootNamespace>
-    <AssemblyName>Srp</AssemblyName>
+    <RootNamespace>Ocp</RootNamespace>
+    <AssemblyName>Ocp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,8 +45,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\Client.cs" />
-    <Compile Include="Utils\Notify.cs" />
+    <Compile Include="TypeVehicle.cs" />
+    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

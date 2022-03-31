@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Srp
 {
-    internal class Program
+     class Program
     {
         static void Main(string[] args)
         {
+
         }
         static void CreateClient()
         {
@@ -28,7 +29,9 @@ namespace Srp
         {
 
         }
+        static void NotifyClient( )
+        {
 
-
+        }
     }
 }
