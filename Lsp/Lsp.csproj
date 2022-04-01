@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2450EEF-1FBD-4E21-A938-F986889E38C6}</ProjectGuid>
+    <ProjectGuid>{5F70AB37-E607-4C48-9F7F-614A08BAB0F1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ocp</RootNamespace>
-    <AssemblyName>Ocp</AssemblyName>
+    <RootNamespace>Lsp</RootNamespace>
+    <AssemblyName>Lsp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IVehicle.cs" />
+    <Compile Include="Client\Card.cs" />
+    <Compile Include="Interfaces\IPaymentInstrument.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypeVehicle.cs" />
-    <Compile Include="Vehicles\Car.cs" />
-    <Compile Include="Vehicles\Motocycle.cs" />
-    <Compile Include="Vehicles\Vehicle.cs" />
+    <Compile Include="Rewards\CardRewards.cs" />
+    <Compile Include="TypeServiceOfCard\CreditCard.cs" />
+    <Compile Include="TypeServiceOfCard\DebitCard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

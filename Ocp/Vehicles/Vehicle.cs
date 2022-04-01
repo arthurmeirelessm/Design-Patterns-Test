@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ocp.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ocp.Vehicles
 {
-    internal class Vehicle
+    internal class Vehicle : IVehicle
     {
 
         protected string Color;
