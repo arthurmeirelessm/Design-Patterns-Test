@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ocp.Vehicles;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,20 +11,27 @@ namespace Ocp
     {
         static void Main(string[] args)
         {
-            TypeVehicle type = TypeVehicle.CAR;
+            TypeVehicle typeCar = TypeVehicle.CAR;
+            TypeVehicle typeMotocycle = TypeVehicle.MOTOCYCLE;
+
             Console.WriteLine("how would you assemble your vehicle?");
             string typeInput = Console.ReadLine();
-            if (type == TypeVehicle.CAR && typeInput == "CAR") 
+            if (typeCar == TypeVehicle.CAR && typeInput == "CAR" || typeInput == "Car") 
             {
-                Vehicle carVehicle = new Vehicle("Preto", 2022, 2.0, 5, 4);
-                carVehicle.Car();
+                Car carVehicle = new Car("Preto", 2022, 2.0, 5, 4);
+                carVehicle.ConfigureCar();
+            }
+            else if (typeMotocycle == TypeVehicle.MOTOCYCLE && typeInput == "Motocycle" || typeInput == "motocycle")
+            {
+                Motocycle motoCycleVehicle = new Motocycle("Preto", 2022, 2.0, 5, 0);
+                motoCycleVehicle.ConfigureMotocycle();
             }
             else
             {
-                Vehicle motoCycleVehicle = new Vehicle("Preto", 2022, 2.0, 5, 0);
-                motoCycleVehicle.Motocycle();
-            }
+                Console.WriteLine("Only vehicles");
+            } 
 
+            Console.ReadLine();
 
         }
     }
