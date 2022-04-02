@@ -15,7 +15,7 @@ namespace Isp
             string typeVehicle = Console.ReadLine();
             if (typeVehicle == "Car")
             {
-                Console.WriteLine("Now, define your model of Car");
+                Console.WriteLine("Now, define your model");
                 Console.WriteLine("Color: ");
                 string color = Console.ReadLine();
                 Console.WriteLine("Engine: ");
