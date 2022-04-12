@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isp", "Isp\Isp.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dip", "Dip\Dip.csproj", "{ABBCDB66-35F4-47E9-B115-212F66B86426}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{CC9F07B9-6408-4B14-B1F1-DF626572EF8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ABBCDB66-35F4-47E9-B115-212F66B86426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABBCDB66-35F4-47E9-B115-212F66B86426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABBCDB66-35F4-47E9-B115-212F66B86426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9F07B9-6408-4B14-B1F1-DF626572EF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9F07B9-6408-4B14-B1F1-DF626572EF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9F07B9-6408-4B14-B1F1-DF626572EF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9F07B9-6408-4B14-B1F1-DF626572EF8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

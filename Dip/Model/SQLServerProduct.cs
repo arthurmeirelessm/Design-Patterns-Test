@@ -12,7 +12,7 @@ namespace Dip.Model
 
         public void GetProductById(int id)
         {
-            Console.WriteLine($"SQLServer: Exibindo dados do produto { id}");
+            Console.WriteLine($"SQLServer: Exibindo dados do produto {id}");
         }
     }
 }
