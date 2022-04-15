@@ -10,6 +10,6 @@ namespace AbstractFactory.Interfaces
     {
         void CheckWind();
         void GetCargo();
-        void StartRoute(int wind);
+        void StartRoute();
     }
 }

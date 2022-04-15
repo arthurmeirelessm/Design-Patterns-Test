@@ -9,16 +9,7 @@ namespace AbstractFactory.Aircrafts
 {
     internal class Airplane : IAircraft
     {
-        public int wind { get; set; }
 
-        public Airplane(int wind)
-        {
-            this.wind = wind;
-        }
-
-        public Airplane()
-        {
-        }
 
         public void CheckWind()
         {
@@ -32,17 +23,9 @@ namespace AbstractFactory.Aircrafts
             Console.WriteLine("Passageiro(s) já estão a bordo!");
         }
 
-        public void StartRoute(int wind)
+        public void StartRoute()
         {
-            if (wind > 25)
-            {
-               CheckWind();
-            }
-            else
-            {
-                Console.WriteLine("Ventos ainda não favoráveis para voo, aguardando..");
-            }
-
+            CheckWind();
             GetCargo();
             Console.WriteLine("Vamos decolar.");
         }

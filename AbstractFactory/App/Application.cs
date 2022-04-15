@@ -20,10 +20,10 @@ namespace AbstractFactory.App
         }
 
 
-        public void StartRoute(int wind)
+        public void StartRoute()
         {
             landVehicles.StartRoute();
-            aircraft.StartRoute(wind);
+            aircraft.StartRoute();
         }
 
     }
