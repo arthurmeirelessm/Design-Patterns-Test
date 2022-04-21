@@ -20,7 +20,7 @@ namespace Bridge
             live.Result();
 
         }
-        static void OnlyLegends(IPlatform platform)
+        static public void OnlyLegends(IPlatform platform)
         {
             Console.WriteLine("Tranquilo!");
 
@@ -28,7 +28,7 @@ namespace Bridge
             advancedlive.Subtitle();
         }
 
-        static void LegendsAndComments(IPlatform platform)
+        static public void LegendsAndComments(IPlatform platform)
         {
             Console.WriteLine("Tranquilo!");
 
